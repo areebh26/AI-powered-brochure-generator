@@ -2,4 +2,9 @@
 name = "ai-powered-brochure-generator"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "load-dotenv>=0.1.0",
+    "openai>=2.44.0",
+    "requests>=2.34.2",
+]
